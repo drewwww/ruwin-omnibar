@@ -1,0 +1,44 @@
+{
+  "name": "ruwin-omnibar",
+  "version": "0.1.0",
+  "description": "omnibar with support for recent donor, top donor, recent sub information",
+  "homepage": "https://github.com/drewwww/ruwin-omnibar",
+  "author": {
+    "name": "drewwww",
+    "email": "egglestonandrew927@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "omnibar",
+    "follower",
+    "subscriber",
+    "donation",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "~0.8.0",
+    "dashboardPanels": [
+      {
+        "name": "omnibar",
+        "title": "Omnibar",
+        "width": 2,
+        "file": "omnibar.html",
+        "headerColor": "#9f9bbd"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "index.html",
+        "width": 1920,
+        "height": 36
+      }
+    ]
+  },
+  "repository": "drewwwww/ruwin-omnibar"
+}
